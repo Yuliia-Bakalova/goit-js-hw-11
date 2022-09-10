@@ -25,7 +25,7 @@ loadMore.addEventListener('click', onLoadMore);
 
 
 function onSearchForm(evt) {
-  console.log('test');
+  // console.log('test');
   evt.preventDefault();
   window.scroll({ top: 0 });
   page = 1;
